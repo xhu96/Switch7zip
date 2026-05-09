@@ -15,7 +15,7 @@ Switch 7zip is intentionally still pre-1.0. The next work should focus on qualit
 - Add password prompt and clearer encrypted-archive diagnostics where backend support allows it.
 - Add a true background job engine only after state/action separation is complete.
 
-## Explicitly out of scope for now
+## Explicitly out of scope
 
 - FTP server.
 - HTTP/browser upload.
