@@ -276,15 +276,3 @@ It is a file and archive utility for user-owned content on a homebrew-enabled Sw
 
 ---
 
-<div align="center">
-
-**Suggested repository topics**
-
-`nintendo-switch` · `homebrew` · `switch-homebrew` · `libnx` · `devkitpro`  
-`nro` · `file-manager` · `archive-manager` · `libarchive` · `sdl2` · `fat32`
-
-<br/>
-
-<sub>Maintained by <b>Xhulio</b></sub>
-
-</div>
