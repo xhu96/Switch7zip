@@ -9,6 +9,7 @@ This is the section to keep visible before external review. It is better to be c
 - Some action-menu items are too numerous and need grouping.
 - Touch input is not yet treated as a first-class interaction model.
 - There is no dedicated Delete button; Trash exists, but the delete flow should be more obvious.
+- Would be nice to remove the selection between Block, Slipt or Concat from the Option menu and to be selected automatically from a pop-up window/message.
 
 ## Archive workflow
 
@@ -31,6 +32,7 @@ This is the section to keep visible before external review. It is better to be c
 - Trash restore works but needs a better browser and confirmation flow.
 - Folder comparison is top-level only.
 - Resume/retry is not a true operation checkpoint system yet.
+- The + menu is slow, needs accelerated scrolling.
 
 ## Architecture
 
