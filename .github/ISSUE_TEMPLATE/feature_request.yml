@@ -1,0 +1,23 @@
+name: Feature request
+about: Suggest an improvement for Switch 7zip
+labels: enhancement
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Feature summary
+      description: What should be added or improved?
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why is this useful on Switch?
+      description: Focus on HAC-001 handheld UX, large archives, safety, or file-management workflow.
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: This does not require Nintendo SDK files, keys, or proprietary content.
+        - label: This is not an FTP/HTTP/browser-upload/network-transfer request.

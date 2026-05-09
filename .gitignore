@@ -1,0 +1,24 @@
+# Build outputs
+build/
+build-host/
+*.elf
+*.nacp
+*.nro
+*.map
+*.o
+*.d
+
+# Host smoke-test output
+host-test/
+*.tmp
+
+# macOS / editor noise
+.DS_Store
+.vscode/
+.idea/
+
+# Runtime files copied back from SD card
+logs/
+config.ini
+*.partial
+*.split/

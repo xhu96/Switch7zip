@@ -1,0 +1,15 @@
+name: host-smoke
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  host-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install host dependencies
+        run: sudo apt-get update && sudo apt-get install -y gcc libarchive-dev
+      - name: Run host extraction smoke test
+        run: ./tools/host_check.sh

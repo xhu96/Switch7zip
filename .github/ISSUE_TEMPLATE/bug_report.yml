@@ -1,0 +1,49 @@
+name: Bug report
+about: Report a Switch 7zip issue
+labels: bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing Switch 7zip. Please include logs when possible.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the issue clearly.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Switch 7zip version
+      placeholder: 0.9.11-pre
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Launch mode
+      options:
+        - Full RAM / title override
+        - Applet Mode / Album
+        - Not sure
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Paste relevant lines from /switch/Switch7zip/logs/latest.log or failed_operation.txt.
+      render: text
+  - type: textarea
+    id: archive
+    attributes:
+      label: Archive/file details if relevant
+      description: Format, size, split parts, encrypted/password protected, SD free space.
