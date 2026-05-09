@@ -83,6 +83,23 @@ FAT32 cannot store a single file larger than **4 GiB − 1 byte**. Switch 7zip e
 | `SPLIT` | Writes oversized files as FAT32-safe `.part` chunks inside a `.split/` folder. |
 | `CONCAT` | Writes oversized files as Switch concatenation folders and attempts to set the archive/concatenation attribute. Switch-specific. |
 
+### How to enable SPLIT or CONCAT
+
+`SPLIT` and `CONCAT` are not triggered by archive size alone. They are only used when an **individual file inside the archive** is larger than FAT32 allows.
+
+To enable one of these modes:
+
+1. Launch **Switch 7zip**.
+2. Press **`+`** to open the action menu.
+3. Open **Settings**.
+4. Find the FAT32 oversized-file handling option.
+5. Change the mode from `BLOCK` to `SPLIT` or `CONCAT`.
+6. Exit Settings.
+7. Select the archive.
+8. Press **`X`** to extract.
+
+Use `SPLIT` when you only need to store or move the oversized output on FAT32. Use `CONCAT` only when another Switch tool expects Horizon OS concatenated-file folders.
+
 <details>
 <summary><b>Example output structures</b></summary>
 
